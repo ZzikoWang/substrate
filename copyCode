@@ -1,0 +1,10 @@
+import random
+
+url_list = ['https://www.zve', [  # 'https://www.feixiaohao.com/exchange/zb/',
+                            'https://www.coinout',
+                            'https://coinom/',
+                            'http://www.oml',
+                            'http://www.huon/']]
+url_i = random.randint(0, len(url_list[1]) - 1)
+url_s = url_list[1][url_i]
+print('noce > ifnoce:', url_s)
